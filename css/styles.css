@@ -42,12 +42,10 @@ p{
     padding: 0 0 2.5rem;
 }
 .navbar-toggler{
-    background-color: #212427;
-    --bs-navbar-toggler-border-color: #212427;
-
+    background-color: #0150FF;
 }
 .navbar-toggler:hover{
-    background-color: #F5F5F5FF;
+    background-color: #D0E4FF;
     transition: 0.2s;
 }
 
@@ -60,11 +58,13 @@ p{
     padding: 0 18px;
 }
 .nav-link{
-
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: #212427;
+}
+.nav-link:hover{
+    color: #0150FF;
 }
 
 /*Title Section*/
@@ -85,6 +85,8 @@ p{
 }
 .btn-dark{
     transition: 0.2s;
+    background-color: #0150FF;
+    border-color: #0150FF;
 }
 .btn-dark:hover{
     background-color: #D0E4FF;
@@ -122,12 +124,12 @@ p{
 .icon-features{
     margin-bottom:1rem;
     font-size: 4rem;
-    color:#FFDE00;
+    color:#0150FF;
 }
 
 .icon-features:hover{
     cursor: grab;
-    color: #0150FF;
+    color: #D0E4FF;
 }
 
 
@@ -220,21 +222,21 @@ p{
     margin: 30px auto;
     text-align: left;
     width: 100%;
-    list-style: none; /* Remove default list bullet points */
-    padding-left: 0; /* Remove left padding from the list */
+    list-style: none;
+    padding-left: 0;
 }
 
 .contact-listElements{
-    margin-bottom: 10px; /* Add some spacing between list items */
+    margin-bottom: 10px;
 }
 .contact-list a {
-    color: #0150FF; /* Set the link text color as needed (blue in this example) */
-    text-decoration: none; /* Remove underline from the links */
-    transition: color 0.2s; /* Add smooth transition when the color changes on hover */
+    color: #0150FF;
+    text-decoration: none;
+    transition: color 0.2s;
 }
 .contact-list a:hover {
-    color: #FFDE00; /* Change the link color on hover */
-    text-decoration: underline; /* Add underline on hover */
+    color: #FFDE00;
+    text-decoration: underline;
 }
 
 
